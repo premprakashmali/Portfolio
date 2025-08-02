@@ -107,7 +107,7 @@ const Footer = () => {
             <div className="space-y-3">
               <p className="text-muted-foreground">
                 <span className="text-primary-glow">Email:</span><br />
-                premprakashm10@gmail.com.com
+                premprakashm10@gmail.com
               </p>
               <p className="text-muted-foreground">
                 <span className="text-primary-glow">Location:</span><br />

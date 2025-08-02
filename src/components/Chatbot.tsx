@@ -8,7 +8,7 @@ const Chatbot: React.FC = () => {
   const [messages, setMessages] = useState([
     {
       id: 1,
-      text: "Hi! I'm Prem's AI assistant. How can I help you today?",
+      text: "Hi! I'm CodeZenith AI assistant. How can I help you today?",
       isBot: true,
       timestamp: new Date()
     }
