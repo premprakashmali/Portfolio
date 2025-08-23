@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { GithubLogo, LinkedinLogo, Heart } from 'phosphor-react';
+import { ArrowLeft, ArrowUp, ArrowUpToLine } from 'lucide-react';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -68,9 +69,9 @@ const Footer = () => {
       <div className="container mx-auto max-w-6xl relative z-10">
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           <div>
-            <h3 className="text-2xl font-light text-primary-glow mb-4">
+            {/* <h3 className="text-2xl font-light text-primary-glow mb-4">
               Built by Prem
-            </h3>
+            </h3> */}
             <p className="text-muted-foreground leading-relaxed mb-6">
               Building modern, high-performance web experiences through elegant design, clean code, and the latest technologies.
             </p>
@@ -122,14 +123,14 @@ const Footer = () => {
             © 2024 Prem Prakash Mali. All rights reserved.
           </p>
 
-          <div className="flex items-center gap-2 text-muted-foreground">
+          {/* <div className="flex items-center gap-2 text-muted-foreground">
             Made with
             <Heart size={16} className="text-accent-glow animate-pulse" />
             using React & GSAP
-          </div>
+          </div> */}
 
-          <button onClick={scrollToTop} className="px-4 py-2 bg-gradient-primary text-primary-foreground rounded-lg hover:shadow-glow-primary transition-all duration-300 hover:scale-105 text-sm">
-            Back to Top
+          <button onClick={scrollToTop} className="px-4 py-2 gap-2 flex items-center bg-gradient-primary text-primary-foreground rounded-lg hover:shadow-glow-primary transition-all duration-300 hover:scale-105 text-sm">
+            Back to Top <ArrowUp size={18}/>
           </button>
         </div>
       </div>

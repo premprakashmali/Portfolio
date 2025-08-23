@@ -62,9 +62,9 @@ const Preloader = ({ onComplete }: PreloaderProps) => {
     <div ref={preloaderRef} className="fixed inset-0 z-50 flex items-center justify-center bg-background">
       <div className="text-center">
         <div ref={logoRef} className="mb-8">
-          <h1 className="text-2xl md:text-5xl font-light text-foreground text-glow mb-4">
+          {/* <h1 className="text-2xl md:text-5xl font-light text-foreground text-glow mb-4">
              Prem Mali
-          </h1>
+          </h1> */}
           <p className="text-xl text-muted-foreground">Loading Portfolio...</p>
         </div>
 

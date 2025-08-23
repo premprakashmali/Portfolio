@@ -20,15 +20,15 @@ const Projects = () => {
       liveUrl: "https://www.coddletrip.com/ ",
       githubUrl: "https://github.com/premprakashmali"
     },
-    // {
-    //   id: 2,
-    //   title: "HuliJewellers – Modern E-commerce Jewelry Platform",
-    //   description: "Developed a sleek jewelry e-commerce platform featuring real-time cart updates, advanced product filtering, secure user authentication.",
-    //   image: "/Images/hulijewellers-1.png",
-    //   tech: ["React", "Node.js", "Framer Motion", "Express.js", "PostgreSQL", "Tailwind CSS", "Docker"],
-    //   liveUrl: "https://www.hulijewellers.in",
-    //   githubUrl: "https://github.com/premprakashmali"
-    // },
+    {
+      id: 2,
+      title: "HuliJewellers – Modern E-commerce Jewelry Platform",
+      description: "Developed a sleek jewelry e-commerce platform featuring real-time cart updates, advanced product filtering, secure user authentication.",
+      image: "/Images/hulijewellers-1.png",
+      tech: ["React", "Node.js", "Framer Motion", "Express.js", "PostgreSQL", "Tailwind CSS", "Docker"],
+      liveUrl: "https://www.hulijewellers.in",
+      githubUrl: "https://github.com/premprakashmali"
+    },
 
     {
       id: 3,
